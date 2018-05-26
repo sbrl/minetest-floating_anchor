@@ -18,7 +18,6 @@ Upon breaking, the node form will drop the item form again for you to re-use use
 Pull requests are welcome! By contributing, you agree to release your contribution under the same licenses that this repository is currently under.
 
 ### Todo List
- - Figure out a clever hack to hide the node form in the creative inventory
  - Don't deduct an item from players in creative mode when placing
  - Don't drop an item for creative players breaking the node form
  - ...? ([Open an issue](https://github.com/sbrl/minetest-floating_anchor/issues/new) or [send a pull request](https://github.com/sbrl/minetest-floating_anchor/compare)!)

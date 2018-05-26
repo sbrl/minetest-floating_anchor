@@ -28,7 +28,7 @@ end
 minetest.register_node("floating_anchor:floating_anchor", {
 	description = "Floating Anchor (node - don't use)",
 	tiles = {"floating-anchor.png"},
-	groups = { cracky = 1 },
+	groups = { cracky = 1, not_in_creative_inventory = 1 },
 	drop = "floating_anchor:floating_anchor_item"
 })
 
