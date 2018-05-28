@@ -1,7 +1,9 @@
 # minetest-floating-anchor
-A floating anchor mod for minetest. Adds an item that, when used, places a floating anchor block at the player's position.
+> A floating anchor mod for minetest. Adds an item that, when used, places a floating anchor block at the player's position.
 
 ![A picture of the floating anchor block in mid-air.](https://i.imgur.com/4RYlEDO.png)
+
+ - [Forum Post](https://forum.minetest.net/viewtopic.php?f=9&t=20180)
 
 ## Installation
 Clone this repository into the `worldmods` subfolder of the folder that contains your world. If it doesn't exist, then you'll need to create it.
