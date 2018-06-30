@@ -21,7 +21,7 @@ local function do_anchor_place(itemstack, player, pointed_thing)
 	-- Place the floating anchor in the world
 	local player_name = player:get_player_name()
 	local node_to_check = minetest.get_node(place_position)
-	if node_to_check.name == "air" and not minetest.is_protected(place_position, player_name) then
+	if node_to_check.name == "air" then
 		minetest.set_node(place_position, { name = "floating_anchor:floating_anchor" })
 		-- Take an item from the player's stack & return the new stack with 1 fewer items in it
 		itemstack:take_item(1)
