@@ -19,7 +19,6 @@ local function do_anchor_place(itemstack, player, pointed_thing)
 	log_message("action", string.format("(%d, %d, %d)", place_position.x, place_position.y, place_position.z))
 	
 	-- Place the floating anchor in the world
-	local player_name = player:get_player_name()
 	local node_to_check = minetest.get_node(place_position)
 	if node_to_check.name == "air" then
 		minetest.set_node(place_position, { name = "floating_anchor:floating_anchor" })
