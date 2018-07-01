@@ -18,6 +18,17 @@ As indicated by the description, the node is _not_ the one you should use. For g
 
 Upon breaking, the node form will drop the item form again for you to re-use use. If you somehow end up with the node form in your inventory, simply place it normally and break it again to turn it back into the more useful item form.
 
+## Survival
+In survival mode, a crafting recipe is available:
+
+![The survival recipe for crafting a floating anchor. A textual representation is detailed below.](https://i.imgur.com/b7svaDT.png)
+
+x	| 1		| 2		| 3
+----|-------|-------|----------
+1	| wool	| wool	| wool
+2	| wool	| steel ingot	| wool
+3	| wool	| wool	| wool
+
 ## Contributing
 Pull requests are welcome! By contributing, you agree to release your contribution under the same licenses that this repository is currently under.
 
