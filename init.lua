@@ -44,7 +44,7 @@ minetest.register_craftitem("floating_anchor:floating_anchor_item", {
 })
 
 minetest.register_craft({
-	output = "floating_anchor:floating_anchor",
+	output = "floating_anchor:floating_anchor_item",
 	recipe = {
 		{"group:wool", "group:wool", "group:wool"},
 		{"group:wool", "default:steel_ingot", "group:wool"},
