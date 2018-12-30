@@ -1,6 +1,6 @@
 --- floating_anchor
 -- @module floating_anchor
--- @release 0.1
+-- @release 0.5
 -- @copyright 2018 Starbeamrainbowlabs
 -- @license Mozilla Public License, 2.0 (MPL-2.0)
 -- @author Starbeamrainbowlabs
