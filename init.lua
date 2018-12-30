@@ -40,7 +40,8 @@ minetest.register_craftitem("floating_anchor:floating_anchor_item", {
 	description = "Floating Anchor",
 	_doc_items_longdesc = "A strange floating anchor that can be placed in mid-air.",
 	_doc_items_usagehelp = "Right click to place it beneath your feet when flying (or falling).",
-	inventory_image = "floating-anchor.png",
+	inventory_image = "[inventorycube{floating-anchor.png{floating-anchor.png{floating-anchor.png",
+	wield_image = "floating-anchor.png",
 	visual = "cube",
 	on_place = do_anchor_place,
 	on_secondary_use = do_anchor_place
