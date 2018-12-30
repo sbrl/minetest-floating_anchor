@@ -5,8 +5,10 @@
 
  - [Forum Post](https://forum.minetest.net/viewtopic.php?f=9&t=20180)
 
+
 ## Installation
 Clone this repository into the `worldmods` subfolder of the folder that contains your world. If it doesn't exist, then you'll need to create it.
+
 
 ## Usage
 This mod adds two items:
@@ -29,13 +31,18 @@ x	| 1		| 2		| 3
 2	| wool	| steel ingot	| wool
 3	| wool	| wool	| wool
 
+Feedback on the balance of this recipe is appreciated, as the author does not play survival very often.
+
+
 ## Contributing
 Pull requests are welcome! By contributing, you agree to release your contribution under the same licenses that this repository is currently under.
+
 
 ### Todo List
  - Don't deduct an item from players in creative mode when placing
  - Don't drop an item for creative players breaking the node form
  - ...? ([Open an issue](https://github.com/sbrl/minetest-floating_anchor/issues/new) or [send a pull request](https://github.com/sbrl/minetest-floating_anchor/compare)!)
+
 
 ## License
 Everything here is licensed under the _Mozilla Public License 2.0_ - except the textures (which can be found in the `textures/` folder), which are licensed under CC-BY-SA (https://creativecommons.org/licenses/by-sa/4.0/). A copy of the Mozilla Public License 2.0 can be found in the `LICENSE` file in this repository.
