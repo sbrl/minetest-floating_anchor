@@ -43,6 +43,7 @@ minetest.register_craftitem("floating_anchor:floating_anchor_item", {
 	inventory_image = "[inventorycube{floating-anchor.png{floating-anchor.png{floating-anchor.png",
 	wield_image = "floating-anchor.png",
 	visual = "cube",
+	groups = { oddly_breakable_by_hand = 2 },
 	on_place = do_anchor_place,
 	on_secondary_use = do_anchor_place
 })
