@@ -32,7 +32,11 @@ end
 minetest.register_node("floating_anchor:floating_anchor", {
 	description = "Floating Anchor (node - don't use)",
 	tiles = {"floating-anchor.png"},
-	groups = { cracky = 1, not_in_creative_inventory = 1 },
+	groups = {
+		cracky = 1,
+		not_in_creative_inventory = 1,
+		oddly_breakable_by_hand = 2
+	},
 	drop = "floating_anchor:floating_anchor_item"
 })
 
@@ -43,7 +47,6 @@ minetest.register_craftitem("floating_anchor:floating_anchor_item", {
 	inventory_image = "[inventorycube{floating-anchor.png{floating-anchor.png{floating-anchor.png",
 	wield_image = "floating-anchor.png",
 	visual = "cube",
-	groups = { oddly_breakable_by_hand = 2 },
 	on_place = do_anchor_place,
 	on_secondary_use = do_anchor_place
 })
