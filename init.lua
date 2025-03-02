@@ -18,6 +18,13 @@ local function do_anchor_place(itemstack, player, pointed_thing)
 	place_position.y = place_position.y - 0.8
 	log_message("action", string.format("(%d, %d, %d)", place_position.x, place_position.y, place_position.z))
 	
+	-- Check if the player is allowed to place nodes there
+	local name = player:get_player_name()
+	if core.is_protected(place_position,name) then
+		core.record_protection_violation(place_position,name)
+		return
+	end
+	
 	-- Place the floating anchor in the world
 	local node_to_check = minetest.get_node(place_position)
 	if node_to_check.name == "air" then
