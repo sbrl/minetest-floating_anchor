@@ -20,8 +20,8 @@ local function do_anchor_place(itemstack, player, pointed_thing)
 	
 	-- Check if the player is allowed to place nodes there
 	local name = player:get_player_name()
-	if core.is_protected(place_position,name) then
-		core.record_protection_violation(place_position,name)
+	if minetest.is_protected(place_position,name) then
+		minetest.record_protection_violation(place_position,name)
 		return
 	end
 	
